@@ -44,6 +44,7 @@
   background: radial-gradient(ellipse farthest-side at 76% 77%, rgba(245, 228, 212, 0.25) 4%, rgba(255, 255, 255, 0) calc(4% + 1px)), radial-gradient(circle at 76% 40%, #fef6ec 4%, rgba(255, 255, 255, 0) 4.18%), linear-gradient(135deg, #ff0000 0%, #000036 100%), radial-gradient(ellipse at 28% 0%, #ffcfac 0%, rgba(98, 149, 144, 0.5) 100%), linear-gradient(180deg, #cd6e8a 0%, #f5eab0 69%, #d6c8a2 70%, #a2758d 100%);
   background-blend-mode: normal, normal, screen, overlay, normal;
   box-shadow: 0px 0px 10px 1px #000000;
+  
 }
 
 .col-lg-4 {
@@ -64,9 +65,82 @@
   font-family: Verdana;
 }
 
-/* .card-text { */
-  /* text-align: center; */
-/* } */
+.about logo span {
+  color: black;
+}
 
 
+  .about {
+    background-image: url('../img/about-bg.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    color: black; /* Text color */
+    font-family: Arial, sans-serif; /* Change the font family as needed */
+    
+    
+  }
 
+  .about .img-fluid {
+    width: 600px; /* Set the width */
+    height: 430px; /* Set the height */
+    border-radius: 1%; /* Make the image round */
+    object-fit: cover; /* Ensure the image covers the entire container */
+  }
+
+  .about h2 {
+    font-size: 36px; /* Change the font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+    color: #34b7a7;
+  }
+
+  .about p {
+    font-size: 16px; /* Change the font size as needed */
+  }
+
+  .about logo span {
+    color: black;
+  }
+
+  /* styles.css */
+
+/* Style the section title */
+.section-title h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.section-title p {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Style the progress bars and skills */
+.skill {
+  font-weight: bold;
+  color: #34b7a7;
+}
+
+.progress-bar-wrap {
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.progress-bar {
+  background: #3498db;
+  width: 0; /* Initial width */
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.5s; /* Add a smooth transition */
+}
+
+
+.resume {
+  background-image: url('../img/about-bg.jpg');
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  color: black; /* Text color */
+  font-family: Arial, sans-serif; /* Change the font family as needed */
+  
+  
+}
